@@ -1,10 +1,28 @@
 
 /* This is the basic css styles that will be used throughout the website */
 
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+nav ul {
+    padding: 10px;
+    background-color: black;
+}
+
 nav ul li {
     list-style: none;
     display: inline-block;
     padding: 0 10px;
+}
+
+nav ul li a {
+    color: white;
 }
 
 nav ul li a:link {
@@ -12,5 +30,65 @@ nav ul li a:link {
 }
 
 nav ul li a:hover {
+    color: yellow;
     text-decoration-line: underline;
+}
+
+
+/* #################### HOME #################### */
+header.home-head-bg {
+    background-image: url("../assets/img/Stellenbosch-Mountain.jpg");
+    height: 50vh;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+/* #################### BLAAUWKLIPPEN MEENT #################### */
+
+section p {
+    padding: 10px;
+}
+
+article .description-list {
+    margin: 20px 0;
+}
+
+.img1 {
+    height: 400px;
+}
+
+.rotate-90 {
+    width: 400px;
+    transform: rotate(90deg);
+}
+
+.blaauwklippenmeent-main-bg {
+    background-image: url("../assets/img/Uitleg copy.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    width: 100%;
+}
+
+.blaauwklippenmeent-main-bg section {
+    background-color: rgba(232, 240, 229, 0.8);
+    padding: 20px 10%;
+}
+
+.right-50 {
+    display: inline-block;
+}
+
+.left-50 {
+    display: inline-block;
+}
+
+.blaauwklippenmeent-header {
+    text-align: center;
+    background: rgba(256, 256, 256, 0.8);
 }
