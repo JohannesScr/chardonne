@@ -1,0 +1,16 @@
+
+/* This is the basic css styles that will be used throughout the website */
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav ul li a:link {
+    text-decoration-line: none;
+}
+
+nav ul li a:hover {
+    text-decoration-line: underline;
+}
