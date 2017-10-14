@@ -1,0 +1,57 @@
+
+/* #################### BLAAUWKLIPPEN MEENT #################### */
+
+section p {
+    padding: 10px;
+}
+
+article .description-list {
+    margin: 20px 0;
+}
+
+.img1 {
+    height: 400px;
+    display: none;
+}
+
+.blaauwklippenmeent-main-bg {
+    background-image: url("../../assets/img/Uitleg copy.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    width: 100%;
+}
+
+.blaauwklippenmeent-main-bg section {
+    /*background-color: rgba(232, 240, 229, 0.8);*/
+    background-color: rgba(250, 250, 250, 0.93);
+    padding: 20px 10%;
+}
+
+.right-50 {
+    display: inline-block;
+}
+
+.left-50 {
+    display: inline-block;
+}
+
+.blaauwklippenmeent-header {
+    text-align: center;
+    background: rgba(256, 256, 256, 0.8);
+}
+
+.blueprint {
+    width: 90%;
+}
+
+img.blaauwklippenmeent-imgs {
+    width: 30%;
+}
+
+.rotate-90 {
+    height: 30%;
+}
+
+.section-col {
+    display: block;
+}
